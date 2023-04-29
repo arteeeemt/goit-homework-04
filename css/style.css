@@ -204,6 +204,30 @@ overflow: hidden;
 
 }
 
+.icons-wrapper{
+list-style: none;
+display: flex;
+justify-content: center;
+gap:24px;
+margin-top: 15px;    
+}
+
+.icons-link{
+fill: #F4F4FD;   
+background-color: #4D5AE5;
+width: 40px;
+height: 40px;
+display:inline-block;
+align-items: center; 
+border-radius: 50%;
+display: flex;
+justify-content: center;
+}
+
+.icons-link:hover,:focus.icons-link{
+background-color:#404BBF;    
+}
+
 .strengths{
 padding-top:120px;
 padding-bottom:120px;    
@@ -313,6 +337,72 @@ margin-top: 8px;
 text-align: center;    
 }
 
+.customers{
+padding-top: 120px;
+}
+
+.customers-title{
+color:#2E2F42;
+text-align: center;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+padding-bottom: 72px;
+}
+
+.customers__list{
+display:flex;
+list-style: none;
+justify-content: center;
+gap:24px;
+padding-bottom: 120px;
+
+}
+
+.customers__list-item{
+    border:1px solid #8E8F99;
+    border-radius: 5%;
+    width: 168px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+.customers__link-icon{
+fill:#8E8F99;
+}
+.customers__link-icon:focus{
+outline: none;    
+}
+
+
+.customers__list-item:hover .customers__link-icon{
+fill: #404BBF;    
+
+}
+
+.customers__list-item:focus .customers__link-icon {
+    fill: #404BBF;
+
+}
+.customers__list-item:hover{
+border: 1px solid #404BBF;
+}
+
+.customers__list-item:focus {
+    border: 1px solid #404BBF;
+}
 .footer {
 background-color:var(--span-color);
 padding-top: 101.5px;
@@ -446,7 +536,53 @@ padding-top: 100px;
 padding-bottom:100px;    
 }
 
+.footer-container{
+display: flex;    
+}
+.footer__social-link{
+margin-left: 120px;    
+}
+.footer__social-list{
+list-style: none;
+display: flex;
+gap:16px;
+  
+}
+
+.footer__social-links{
+fill: #F4F4FD;
+background-color: #4D5AE5;
+width: 40px;
+height: 40px;
+display: inline-block;
+align-items: center;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+}
+.social-desc{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+    /* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
+
+    /* WHITE */
+
+color: #FFFFFF;
+margin-bottom: 16px;
+}
 .portfolio-section{
 padding-top:96px;
 padding-bottom:120px; 
+}
+
+.footer__social-links:hover{
+background-color:#31D0AA;    
+}
+.footer__social-links:focus {
+    background-color: #31D0AA;
 }
