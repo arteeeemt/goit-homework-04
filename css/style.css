@@ -372,6 +372,8 @@ font-family: 'Roboto';
     text-transform: capitalize;
 
     color: #2E2F42;
+    line-height: 1.1;
+    margin-bottom: 72px;
 }
 
 .customers-section {
@@ -550,9 +552,10 @@ padding-bottom:100px;
 
 .footer-container{
 display: flex;    
+align-items: baseline;
 }
-.footer__social-link{
-margin-left: 120px;    
+.footer__inner-box{
+margin-right:120px;
 }
 .footer__social-list{
 list-style: none;
