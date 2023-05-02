@@ -506,8 +506,11 @@ border: 1px solid #e7e9fc;
 border-top: none;
 }
 
-.portfolio-item{
+.portfolio__item-list{
 width: calc((100% - 48px) / 3);
+}
+
+.portfolio-item{
 display: block;
 }
 
